@@ -56,8 +56,8 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 
 # Auto delete time in seconds.
 AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "0"))
-AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "This file will be automatically deleted in {time} seconds. Please ensure you have saved any necessary content before this time.")
-AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has been successfully deleted. Thank you for using our service. ✅")
+AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "❗ အရေးကြီးသတိပေးချက် ❗\n\nဤဗီဒီယိုဖိုင်သည် မူပိုင်ခွင့် (Copyright) ပြဿနာများကြောင့် သတ်မှတ်ထားသော ၅ မိနစ်အတွင်း အလိုအလျောက် ပြန်လည်ပျက်ပြယ်သွားမည် ဖြစ်ပါသည် 🙏\n\nဇာတ်ကားများ မပျက်ခင် မိမိအကောင့်ရဲ့ Saved Messages (သို့မဟုတ်) အခြားသူတစ်ဦးဦးထံသို့ Forward (လှမ်းပို့) ထားလိုက်ပါက ဗီဒီယိုဖိုင် ပျောက်ပျက်မသွားဘဲ စိတ်ကြိုက် ပြန်လည်ကြည့်ရှုနိုင်မည် ဖြစ်ပါသည် 🤍")
+AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "━━━━━━━━━━━━━━━━━━━━\n⚠️ YOUR VIDEO IS SUCCESSFULLY DELETED !\n━━━━━━━━━━━━━━━━━━━━\n\n၅ မိနစ်ပြည့်သွားသဖြင့် ဗီဒီယိုဖိုင်အား အလိုအလျောက် ဖျက်သိမ်းပြီးပါပြီ။ ပြန်လည်ရယူရန် အောက်ပါ Get File Again ခလုတ်ကို နှိပ်ပါ။")
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
